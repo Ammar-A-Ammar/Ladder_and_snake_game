@@ -1,0 +1,94 @@
+﻿Build started 5/21/2020 5:19:16 AM.
+     1>Project "C:\Users\Enj.Ammar\Downloads\Compressed\New folder (3)\Project_Code\PT-Project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt Action.cpp AddCardAction.cpp AddCoinSetAction.cpp AddLadderAction.cpp AddSnakeAction.cpp ApplicationManager.cpp BackwardCard_3.cpp Card.cpp CopyCardAction.cpp CutCardAction.cpp DecWalletCard_1.cpp Cell.cpp CellPosition.cpp Delete.cpp FireCard.cpp FreezeCard_6.cpp GameObject.cpp Grid.cpp Input.cpp Ladder.cpp LoseCityCard_13.cpp MCardAlex_8.cpp MCardAswan_9.cpp MCardCairo_7.cpp MCardHurghada_11.cpp MCardLuxor_10.cpp NextCard_2.cpp OpenGridAction.cpp Output.cpp PasteCardAction.cpp Player.cpp Main.cpp PreventCard_4.cpp ReturnMortgagedCard_14.cpp RollDiceAction.cpp SaveGridAction.cpp Snake.cpp SwithchToPlayMode.cpp TakeCityCard_12.cpp
+         TakeCityCard_12.cpp
+         SwithchToPlayMode.cpp
+         Snake.cpp
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\snake.cpp(24): warning C4101: 'y' : unreferenced local variable
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\snake.cpp(24): warning C4101: 'x' : unreferenced local variable
+         SaveGridAction.cpp
+         ReturnMortgagedCard_14.cpp
+         PreventCard_4.cpp
+         Player.cpp
+         PasteCardAction.cpp
+         Output.cpp
+         OpenGridAction.cpp
+         NextCard_2.cpp
+         MCardLuxor_10.cpp
+         MCardHurghada_11.cpp
+         MCardCairo_7.cpp
+         MCardAswan_9.cpp
+         MCardAlex_8.cpp
+         LoseCityCard_13.cpp
+         Ladder.cpp
+         Input.cpp
+         Grid.cpp
+         Generating Code...
+         Compiling...
+         GameObject.cpp
+         FreezeCard_6.cpp
+         FireCard.cpp
+         Delete.cpp
+         CellPosition.cpp
+         Cell.cpp
+         DecWalletCard_1.cpp
+         CutCardAction.cpp
+         CopyCardAction.cpp
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\copycardaction.cpp(36): error C2059: syntax error : '}'
+         Card.cpp
+         BackwardCard_3.cpp
+         ApplicationManager.cpp
+         AddSnakeAction.cpp
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addsnakeaction.cpp(34): error C3867: 'CellPosition::SetVCell': function call missing argument list; use '&CellPosition::SetVCell' to create a pointer to member
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addsnakeaction.cpp(34): error C3867: 'CellPosition::VCell': function call missing argument list; use '&CellPosition::VCell' to create a pointer to member
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addsnakeaction.cpp(34): error C2446: '<' : no conversion from 'int (__thiscall CellPosition::* )(void) const' to 'bool (__thiscall CellPosition::* )(int)'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addsnakeaction.cpp(34): error C2296: '<' : illegal, left operand has type 'bool (__thiscall CellPosition::* )(int)'
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addsnakeaction.cpp(34): error C2297: '<' : illegal, right operand has type 'int (__thiscall CellPosition::* )(void) const'
+         AddLadderAction.cpp
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addladderaction.cpp(34): error C3867: 'CellPosition::SetVCell': function call missing argument list; use '&CellPosition::SetVCell' to create a pointer to member
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addladderaction.cpp(34): error C3867: 'CellPosition::VCell': function call missing argument list; use '&CellPosition::VCell' to create a pointer to member
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addladderaction.cpp(34): error C2446: '>' : no conversion from 'int (__thiscall CellPosition::* )(void) const' to 'bool (__thiscall CellPosition::* )(int)'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addladderaction.cpp(34): error C2296: '>' : illegal, left operand has type 'bool (__thiscall CellPosition::* )(int)'
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addladderaction.cpp(34): error C2297: '>' : illegal, right operand has type 'int (__thiscall CellPosition::* )(void) const'
+         AddCoinSetAction.cpp
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addcoinsetaction.cpp(21): error C2027: use of undefined type 'Grid'
+                 c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\applicationmanager.h(8) : see declaration of 'Grid'
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addcoinsetaction.cpp(21): error C2227: left of '->GetOutput' must point to class/struct/union/generic type
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addcoinsetaction.cpp(22): error C2027: use of undefined type 'Grid'
+                 c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\applicationmanager.h(8) : see declaration of 'Grid'
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addcoinsetaction.cpp(22): error C2227: left of '->GetInput' must point to class/struct/union/generic type
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addcoinsetaction.cpp(40): error C2027: use of undefined type 'Grid'
+                 c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\applicationmanager.h(8) : see declaration of 'Grid'
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addcoinsetaction.cpp(40): error C2227: left of '->PrintErrorMessage' must point to class/struct/union/generic type
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addcoinsetaction.cpp(59): error C2027: use of undefined type 'Grid'
+                 c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\applicationmanager.h(8) : see declaration of 'Grid'
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addcoinsetaction.cpp(59): error C2227: left of '->PrintErrorMessage' must point to class/struct/union/generic type
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addcoinsetaction.cpp(66): error C2027: use of undefined type 'Grid'
+                 c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\applicationmanager.h(8) : see declaration of 'Grid'
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addcoinsetaction.cpp(66): error C2227: left of '->GetOutput' must point to class/struct/union/generic type
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addcoinsetaction.cpp(68): error C2027: use of undefined type 'Coinset'
+                 c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\cell.h(14) : see declaration of 'Coinset'
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addcoinsetaction.cpp(68): error C2227: left of '->ReadCardParameters' must point to class/struct/union/generic type
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addcoinsetaction.cpp(72): error C2027: use of undefined type 'Grid'
+                 c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\applicationmanager.h(8) : see declaration of 'Grid'
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addcoinsetaction.cpp(72): error C2227: left of '->AddObjectToCell' must point to class/struct/union/generic type
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addcoinsetaction.cpp(77): error C2027: use of undefined type 'Grid'
+                 c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\applicationmanager.h(8) : see declaration of 'Grid'
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addcoinsetaction.cpp(77): error C2227: left of '->PrintErrorMessage' must point to class/struct/union/generic type
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\addcoinsetaction.cpp(82): warning C4060: switch statement contains no 'case' or 'default' labels
+         AddCardAction.cpp
+         Generating Code...
+     1>c:\users\enj.ammar\downloads\compressed\new folder (3)\project_code\cutcardaction.cpp(48): warning C4700: uninitialized local variable 'pCard' used
+         Compiling...
+         RollDiceAction.cpp
+         Main.cpp
+         Action.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\Enj.Ammar\Downloads\Compressed\New folder (3)\Project_Code\PT-Project.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:30.46
